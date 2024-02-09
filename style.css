@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@300&family=Roboto:ital,wght@1,900&family=Rubik+Doodle+Shadow&display=swap');
+.whole{
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 50px;
+}
+.navbar a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover{
+    color: black;
+    border-bottom: 3px solid Blue;
+}
+
+.wholedata{
+    font-size: 2rem;
+    font-weight: bold; 
+    padding-top: 50px;
+    padding-left: 150px;
+    display: flex;
+}
+.titlename {
+    color: #3366cc;
+    font-weight: bold; 
+    animation: slideInb 2s  ;
+}
+.Button button{
+    background-color:rgb(43, 43, 198);
+    border: none;
+}
+button {
+    
+    color:white;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight:bold;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    animation: slideInb 2s  ;
+}
+button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 4px 0 0 black;
+}
+.profile img{
+    width: 600px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.contact{
+    padding-top: 30px;
+    padding-left: 150px;
+    font-size: xx-large;
+    
+}
+
+.linkedin{
+    color: blue;
+}
+.github{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mail{
+    color: red;
+}
+.abouttitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+.about_whole{
+    display: flex;
+    justify-content: space-evenly;
+}
+.name{
+    font-family: 'Poppins', sans-serif; 
+    font-size: xx-large;  
+    font-weight: 600;
+    animation: slideInb 2s  ;
+}
+.about_details{
+    padding-top: 200px;
+    font-family: 'Poppins', sans-serif; 
+    padding-left: 100px;
+
+}
+.about_img img{
+    height: 600px;
+    width: 700px;
+    padding-left: 100px;
+}
+.skill1{
+    height: 300px;
+    width: 300px;
+    border-style: solid;
+    border-color: white;
+    font-family: 'Poppins', sans-serif; 
+}
+.skill1:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+.skill1 img{
+    height: 100px;
+    width: 100px;
+    padding-top: 15px;
+}
+.skill_whole{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill1_heading{
+    font-size: medium;
+    font-weight: bolder;
+}
+.wholeproject{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    height: 350px;
+    width: 1000px;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.wholeproject > div{
+    flex: 1;
+    transition: all 1s;
+}
+.wholeproject h2{
+    font-family: 'Poppins', sans-serif;
+}
+.wholeproject > div:nth-child(1){
+    background: url(blood_samples_pharma_lab_720.avif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;   
+}
+.wholeproject > div:nth-child(2){
+    background: url(project2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.wholeproject > div:nth-child(3){
+    background: url(project4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.wholeproject >div:hover{
+    flex: 2;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    letter-spacing: 4px;
+}
+
+
+.wholeproject > div {
+    flex: 1;
+    transition: all 1s;
+    position: relative; /* Added position property for absolute positioning */
+}
+
+.wholeproject > div:hover {
+    flex: 2;
+}
+@keyframes example {
+    from { bottom: 50px; }
+    to { bottom: 0; }
+  }
+  
+  .home_whole {
+    position: relative; /* Ensure the position is set for top property to work */
+    animation-name: example;
+    animation-duration: 1s;
+    transition: all 1s;
+  }
+  
+  
+
+
+
+
+
+
